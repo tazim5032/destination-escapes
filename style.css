@@ -138,6 +138,7 @@ a{
 .tour-section{
     display: flex;
     margin-top: 100px;
+    
 }
 .head-global{
     color: #131318;
@@ -292,6 +293,57 @@ h4{
 }
 .left{
     margin: 56px 535px 56px 56px;
+}
+/*perfect place*/
+.para-local{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px; 
+}
+.tata{
+    width: 50%;
+}
+.tour-img{
+    background-image: url('Images/Group\ 40089.png');
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 500px;
+    border-radius: 16px;
+    margin-top: 70px;
+
+   
+
+
+}
+.watch{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-top: 100px;
+    padding-left: 120px;
+}
+.line{
+    width: 76%;
+    padding-left: 20px;
+    padding-top: 100px;
+
+}
+.hori {
+    margin-top: 50%;
+}
+.horr {
+    border: 3px solid rgba(255, 255, 255, 0.198);
+}
+.line img{
+    padding-bottom: 40px;
 }
 
 /* reponsive media query for mobile */
