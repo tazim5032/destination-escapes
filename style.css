@@ -228,6 +228,71 @@ a{
     justify-content: center;
 }
 
+/* deals and discount */
+
+.bg-1{
+    background-image: url('Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px; 
+}
+.bg-2{
+    background-image: url('Images/Group\ 40.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px; 
+}
+.deals{
+    display: flex;
+    flex-direction: column;
+}
+.deals-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.deals-description h3{
+    color: #131318;   
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.card{
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin: 56px 56px 56px 535px;
+    padding: 50px;
+}
+.card h3{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.top{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.top img{
+    height: 24px;
+    width: 24px;
+}
+h4{
+    color: #FF5400;
+}
+.left{
+    margin: 56px 535px 56px 56px;
+}
 
 /* reponsive media query for mobile */
 @media screen and (max-width: 600px) {
@@ -323,5 +388,12 @@ a{
         margin-bottom: 24px;
     }
     
+    /* deals and discount */
+    .card{
+        margin: 0;
+        margin: 120px 20px 20px 20px;
+        padding: 0;
+        padding-left: 10px;
+    }
     
 }
