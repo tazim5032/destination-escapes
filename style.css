@@ -535,7 +535,10 @@ form .btn-global{
 .bandar{
     grid-column: span 16;
 }
-
+.website{
+    font-size: 24px;
+    font-weight: 400;
+}
 
 /* reponsive media query for mobile */
 @media screen and (max-width: 600px) {
