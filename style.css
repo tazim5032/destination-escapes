@@ -169,6 +169,9 @@ a{
 .description{
     margin-right: 40px;
 }
+.tour-img img{
+    width: 100%;
+}
 
 /* why choose us */
 .why-bro{
@@ -533,7 +536,7 @@ form .btn-global{
 @media screen and (max-width: 600px) {
     .display-size{
         margin-left: 7%;
-        margin-right: 7%;
+        margin-right: 0;
         margin-top: 20px;
     }
     .black-bold, .red-bold{
@@ -547,6 +550,11 @@ form .btn-global{
         display: block;
         height: 30px;
         width: 30px;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
     /* banner */
@@ -596,6 +604,7 @@ form .btn-global{
     }
 
     /*tour section*/
+
     .tour-section{
         flex-direction: column;
     }
@@ -603,7 +612,7 @@ form .btn-global{
         margin-bottom: 24px;
     }
     .tour-img{
-        width: 98%;
+        width: 100%;
     }
 
     /* why choose us */
@@ -614,9 +623,8 @@ form .btn-global{
         
     }
     .hotel, .map, .price{
-        
         height: 289px;
-        width: 335px;
+        width: 90%;
         flex-shrink: 0;
     }
     .hotel{
@@ -626,7 +634,8 @@ form .btn-global{
     /* deals and discount */
     .card{
         margin: 0;
-        margin: 120px 20px 20px 20px;
+        /*margin: 120px 20px 20px 20px;*/
+        margin: 20% 10% 10% 10%;
         padding: 0;
         padding-left: 10px;
     }
