@@ -337,13 +337,44 @@ h4{
 
 }
 .hori {
-    margin-top: 50%;
+   border: 100% solid red;
+
 }
 .horr {
-    border: 3px solid rgba(255, 255, 255, 0.198);
+   
 }
 .line img{
     padding-bottom: 40px;
+}
+
+/* footer */
+
+footer{
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-title img{
+    padding-right: 16px;
+    width: 40px;
+    height: 40px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-title{
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+}
+.social-icon{
+    margin-top:30px;
+}
+.footer-hr {
+    width: 70%;
+    margin: 50px 0;
+    background: rgba(19, 19, 24, 0.10);
+    
 }
 
 /* reponsive media query for mobile */
@@ -419,8 +450,8 @@ h4{
     .btn-global{
         margin-bottom: 24px;
     }
-    .tour-img img{
-        width: 100%;
+    .tour-img{
+        width: 98%;
     }
 
     /* why choose us */
