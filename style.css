@@ -290,7 +290,12 @@ a{
     justify-content:space-around;
     align-items: center;
 }
+.yy{
+    display: flex;
+    align-items: center;
+}
 .top img{
+    padding-top: 7px;
     height: 24px;
     width: 24px;
 }
