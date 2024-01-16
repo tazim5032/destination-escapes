@@ -151,6 +151,7 @@ a{
     font-size: 1rem;
     font-weight: 400;
     margin-top: 24px;
+    
 }
 .btn-global{
     margin-top: 32px;
@@ -411,7 +412,19 @@ footer{
 form .btn-global{
     display: flex;
     align-items: center;
+   
     
+}
+.dot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.dot button{
+    font-size: 20px;
+    border-right: 39px;
+    width: 100%;
 }
 .offer-part {
     border-radius: 16px;
