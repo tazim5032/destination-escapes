@@ -171,6 +171,8 @@ a{
 }
 .tour-img img{
     width: 100%;
+    height: 100%;
+    
 }
 
 /* why choose us */
@@ -702,3 +704,4 @@ form .btn-global{
         margin-top: 100px;
     }
 }
+
