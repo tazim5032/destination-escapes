@@ -18,10 +18,12 @@
     font-weight: 800;
 }
 /* nav section */
+
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .nav-title{
     display: flex;
@@ -35,6 +37,8 @@ nav{
 }
 nav ul{
     display: flex;
+    width: 100%;
+    margin-right: 10%;
 }
 nav li{
     list-style: none;
@@ -54,18 +58,22 @@ a{
     display: none;
 }
 
+
 /* banner section */
 .banner{
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 500px;
+    min-width: 100%;
+  
     border-radius: 16px;
     display: flex;
     flex-direction: column;
     margin-top: 60px;
+
     
 }
+
 .banner h3{
     color: #FFF;
     font-size: 4rem;
@@ -78,8 +86,8 @@ a{
     color: #FFF;
     text-align: center;
     font-weight: 400;
-    margin-left: 247px;
-    margin-right: 247px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .form{
     display: flex;
@@ -91,6 +99,7 @@ a{
     background: rgba(255, 255, 255, 0.30);
     margin-left: 12%;
     margin-right: 12%;
+    margin-bottom: 5%;
     justify-content: space-between;
 
     display: flex;
@@ -102,7 +111,7 @@ a{
     border: 1px solid #fff;
     border-radius: 8px;
     background: #FFF;
-    width: 174px;
+    width: 100%;
     height: 52px;
 
     color: rgba(19, 19, 24, 0.50);
@@ -168,6 +177,7 @@ a{
 }
 .description{
     margin-right: 40px;
+    width: 50%;
 }
 .tour-img img{
     width: 100%;
@@ -191,15 +201,18 @@ a{
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
-    width: 600px;
+    width: 100%;
     height: 284px;
+    margin-right: 3%;
 }
 .map{
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
-    width: 600px;
+    width: 100%;
     height: 284px;
+
+
 }
 .hotel , .map , .price{
     display: flex;
@@ -212,8 +225,10 @@ a{
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
-    width: 600px;
+    width: 100%;
     height: 284px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 .hotel img{
     height: 64px;
@@ -276,7 +291,8 @@ a{
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
-    margin: 56px 56px 56px 535px;
+    /*margin: 56px auto 56px auto;*/
+    margin: 5% 10% 5% 25%;
     padding: 50px;
 }
 .card h3{
@@ -289,6 +305,7 @@ a{
     display: flex;
     justify-content:space-around;
     align-items: center;
+    
 }
 .yy{
     display: flex;
@@ -303,7 +320,8 @@ h4{
     color: #FF5400;
 }
 .left{
-    margin: 56px 535px 56px 56px;
+   /* margin: 56px auto 56px auto;*/
+   margin: 5% 25% 5% 10%;
 }
 /*perfect place*/
 .para-local{
@@ -321,7 +339,7 @@ h4{
     width: 50%;
     height: 500px;
     border-radius: 16px;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 .watch{
     color: #FFF;
@@ -333,7 +351,7 @@ h4{
     align-items: center;
     width: 50%;
     padding-top: 80px;
-    padding-left: 120px;
+    padding-left: 25%;
 }
 .watch img{
     height: 45px;
@@ -400,6 +418,7 @@ footer{
     border: 1px solid #FF5400;
     padding: 40px;
     border-radius: 16px;
+    margin-right: 3%;
 
 }
 .subscribe form {
@@ -546,7 +565,7 @@ form .btn-global{
 @media screen and (max-width: 600px) {
     .display-size{
         margin-left: 4%;
-        margin-right: 0;
+        margin-right: 6%;
         margin-top: 20px;
     }
     .black-bold, .red-bold{
@@ -558,13 +577,13 @@ form .btn-global{
     }
     .nav-bur{
         display: block;
-        height: 30px;
+        height: 10px;
         width: 30px;
     }
     nav{
         display: flex;
-        align-items: center;
         justify-content: space-between;
+        align-items: center;
     }
 
     /* banner */
@@ -611,6 +630,9 @@ form .btn-global{
         flex-direction: column;
         margin-top: 60px;
         
+    }
+    .description{
+        width: 100%;
     }
 
     /*tour section*/
@@ -706,6 +728,10 @@ form .btn-global{
         grid-column: span 1;
     }
     .tt{
+        margin-top: 100px;
+    }
+    footer{
+        width: 100%;
         margin-top: 100px;
     }
 }
