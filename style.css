@@ -402,6 +402,11 @@ footer{
     background: rgba(19, 19, 24, 0.10);
     
 }
+.para-footer{
+    display: flex;
+    align-content: center;
+    
+}
 /* group tour */
 .red{
     color: red;
@@ -734,5 +739,9 @@ form .btn-global{
         width: 100%;
         margin-top: 100px;
     }
+    .para-footer{
+        margin-left: 10%;
+    }
+
 }
 
