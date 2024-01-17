@@ -331,7 +331,7 @@ h4{
     line-height: 26px; 
 }
 .tata{
-    width: 96%;
+    width: 50%;
 }
 .tour-img{
     background-image: url('Images/Group\ 40089.png');
@@ -341,6 +341,7 @@ h4{
     border-radius: 16px;
     margin-top: 50px;
 }
+
 .watch{
     color: #FFF;
     text-align: center;
@@ -351,7 +352,7 @@ h4{
     align-items: center;
     width: 50%;
     padding-top: 80px;
-    padding-left: 25%;
+    padding-left: 18%;
 }
 .watch img{
     height: 45px;
@@ -371,6 +372,7 @@ h4{
 .line img{
     padding-bottom: 40px;
 }
+
 
 /* footer */
 
@@ -567,6 +569,7 @@ form .btn-global{
     font-size: 24px;
     font-weight: 400;
 }
+
 
 /* reponsive media query for mobile */
 @media screen and (max-width: 600px) {
